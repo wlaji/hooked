@@ -18,7 +18,7 @@ const Search = (props) => {
   }
 
   return(
-    <form classNname="search">
+    <form className="search">
       <input type="text" value={searchValue} onChange={handleSearchInputChanges}/>
       <input type="submit" onClick={callSearchFunction} value="SEARCH"/>
     </form>

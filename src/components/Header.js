@@ -2,9 +2,9 @@ import React from 'react';
 
 const Header=(props)=>{
   return(
-    <Header className="App-header">
+    <header className="App-header">
       <h1>{props.text}</h1>
-    </Header>
+    </header>
   )
 }
 
